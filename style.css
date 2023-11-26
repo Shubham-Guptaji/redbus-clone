@@ -1,86 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     width: 76%;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.sans{
+
+.sans {
     font-family: sans-serif;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav-left{
+
+.nav-left {
     display: inline-flex;
     align-items: center;
 }
-.nav-left img{
+
+.nav-left img {
     height: 50px;
 }
+
 .vertical-line {
     border-left: 1px solid gray;
-    height: 20px; 
+    height: 20px;
     margin: 0 auto;
     margin-left: 60px;
-    margin-right:40px;
+    margin-right: 40px;
 }
-.nav-svg{
+
+.nav-svg {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 15px;
     font-weight: lighter;
-    gap:10px;
+    gap: 10px;
     padding: 10px;
     padding: 13px;
     margin: 13px;
     border-radius: 10px;
-    color:black;
+    color: black;
     text-decoration: none;
 }
-.nav-svg:hover{
+
+.nav-svg:hover {
     background-color: rgb(233, 233, 233);
 }
-.nav-svg svg{
+
+.nav-svg svg {
     height: 20px;
 }
-.nav-svg:hover svg path{
+
+.nav-svg:hover svg path {
     fill: red;
 }
-.nav-menu{
+
+.nav-menu {
     margin-left: auto;
     display: flex;
-    gap:30px;
+    gap: 30px;
 }
-.nav-menu a{
+
+.nav-menu a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color:black;
-    gap:10px;
-    padding:10px;
+    color: black;
+    gap: 10px;
+    padding: 10px;
     border-radius: 6px;
 }
-.nav-menu a:hover{
+
+.nav-menu a:hover {
     background-color: rgb(233, 233, 233);
 }
-.front-section{
+
+.front-section {
     background-image: url("./assets/HeroImage.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
-.front-section h1{
+
+.front-section h1 {
     padding-top: 80px;
     padding-bottom: 20px;
     text-align: center;
     color: white;
     margin-bottom: 30px;
 }
-.route{
+
+.route {
     border-radius: 30px;
     background-color: white;
     width: 60%;
@@ -88,19 +104,22 @@
     align-items: center;
     margin: 0 auto;
 }
-.route div{
+
+.route div {
     flex: 1;
-    padding: 35px;  
-    box-sizing: border-box;  
+    padding: 35px;
+    box-sizing: border-box;
     display: inline-flex;
-    gap:10px;
+    gap: 10px;
     align-items: center;
 }
-.route div:nth-child(2){
+
+.route div:nth-child(2) {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
-.route input{
+
+.route input {
     width: 80%;
     font-size: 20px;
     border: none;
@@ -108,9 +127,11 @@
     padding-left: 5px;
     padding-bottom: 5px;
 }
-.route input:focus{
-    border:none
+
+.route input:focus {
+    border: none
 }
+
 .route div:nth-child(4) {
     padding-right: 20px;
     text-wrap: nowrap;
@@ -123,66 +144,77 @@
     border-top-right-radius: 30px;
     cursor: pointer;
 }
-.route-search p{
+
+.route-search p {
     padding: 5px;
 
 }
-.front-tagline{
+
+.front-tagline {
     font-size: 25px;
     text-align: center;
     color: yellow;
     height: 400px;
 }
-.divider-height{
+
+.divider-height {
     height: 120px;
 }
-.offers{
+
+.offers {
     width: 100%;
     background-color: white;
     border-radius: 35px;
+    box-shadow: 0px 0px 5px gray;
     padding-top: 30px;
     padding-left: 38px;
     padding-right: 38px;
     padding-bottom: 30px;
 }
 
-.offer-header{
+.offer-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.offer-header h2{
+
+.offer-header h2 {
     font-size: 35px;
     text-transform: uppercase;
     color: rgb(78, 78, 78);
     font-weight: normal;
 }
-.offer-header button{
-    padding-top:10px;
+
+.offer-header button {
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 18px;
     padding-right: 18px;
     font-size: large;
     color: blue;
     font-weight: 600;
-    border:1px solid darkgray;
+    border: 1px solid darkgray;
     background-color: white;
-    border-radius:100px;
+    border-radius: 100px;
 }
-.offer-header button:hover{
+
+.offer-header button:hover {
     box-shadow: 0px 2px 5px gray;
     cursor: pointer;
 }
-.offer-section{
+
+.offer-section {
     width: auto;
     position: relative;
     overflow-x: hidden;
 }
+
 .offer-cards {
     display: flex;
 }
-.offer-card-main{
+
+.offer-card-main {
     display: flex;
     align-items: center;
     padding: 15px;
@@ -192,32 +224,37 @@
     border-radius: 18px;
     cursor: pointer;
 }
-.offer-card-main img{
+
+.offer-card-main img {
     border-radius: 100px;
     margin-right: 15px;
 
 }
-.card-body p:nth-child(1){
+
+.card-body p:nth-child(1) {
     width: fit-content;
     font-size: small;
     padding: 4px;
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 15px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
-.card-body h3{
+
+.card-body h3 {
     line-height: 25px;
     padding-top: 10px;
     padding-bottom: 9px;
 }
-.card-body p:last-of-type{
+
+.card-body p:last-of-type {
     font-size: small;
 }
-.card-body div button{
+
+.card-body div button {
     padding: 5px;
     text-transform: uppercase;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     font-weight: 600;
     font-size: smaller;
     margin-top: 10px;
@@ -226,7 +263,8 @@
     border: 1px dashed white;
     border-radius: 5px;
 }
-.slider-right{
+
+.slider-right {
     position: absolute;
     width: fit-content;
     right: 0px;
@@ -236,24 +274,81 @@
     transform: scale(1.5) translateY(-30%);
     display: none;
 }
-.slide-button{
+
+.slide-button {
     padding: 15px;
-    padding-top:45px;
+    padding-top: 45px;
     padding-bottom: 40px;
-    background:linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,0.6),white)
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6), white)
 }
-.offer-section:hover .slider-right{
+
+.offer-section:hover .slider-right {
     display: block;
 }
-.offer-cards .offer-card-main:nth-child(1){
-    background: linear-gradient(to right, rgb(19,65,150),rgb(55,110,205));
+
+.offer-cards .offer-card-main:nth-child(1) {
+    background: linear-gradient(to right, rgb(19, 65, 150), rgb(55, 110, 205));
 }
-.offer-cards .offer-card-main:nth-child(2){
-    background: linear-gradient(to right, #600d11,#c34349);
+
+.offer-cards .offer-card-main:nth-child(2) {
+    background: linear-gradient(to right, #600d11, #c34349);
 }
-.offer-cards .offer-card-main:nth-child(3){
-    background: linear-gradient(to right, rgb(29,131,83),rgb(99,217,162));
+
+.offer-cards .offer-card-main:nth-child(3) {
+    background: linear-gradient(to right, rgb(29, 131, 83), rgb(99, 217, 162));
 }
-.offer-cards .offer-card-main:nth-child(4){
-    background: linear-gradient(to right, rgb(35,137,162),#5fc6df);
+
+.offer-cards .offer-card-main:nth-child(4) {
+    background: linear-gradient(to right, rgb(35, 137, 162), #5fc6df);
+}
+
+.ref-img{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.ref-img img{
+    cursor:pointer;
+}
+.booking-content{
+    width: 43%;
+}
+.booking-content h3{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 60px;
+}
+.booking{
+    display: flex;
+    margin-top: 50px;
+    gap:25px;
+}
+.booking div{
+    display: flex;
+    gap:15px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.booking a{
+    text-decoration: none;
+    color:black
+}
+.booking .rental a{
+    color:red;
+    font-weight: 700;
+}
+.booking .rental{
+    border-bottom: 2px solid rgb(236, 40, 40);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.divider{
+    border-left: 1px solid rgb(202, 202, 202);
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+.booking-content > p{
+    margin-top:37px;
+    font-size: large;
 }
