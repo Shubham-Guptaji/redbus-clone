@@ -17,7 +17,13 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.redbus-nav{
+    position: sticky;
+    background-color: white;
+    z-index: 55;
+    box-shadow: 0 0 8px lightgray;
+    top:0;
+}
 .nav-left {
     display: inline-flex;
     align-items: center;
@@ -566,4 +572,46 @@
     background-color: rgb(231, 228, 228);
     cursor: pointer;
 }
+.question-section{
+    margin-top: 160px;
+}
+.question-section h2{
+    font-size: 45px;
+    color: rgb(56, 56, 56);
+    font-weight:normal;
+    text-transform: uppercase;
+}
+.question-tabs{
+    margin-top: 50px;
+    display: flex;
+    gap:50px;
+    color:rgb(66, 65, 65);
+}
+.question-tabs p{
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.question-tabs p:first-child{
+    color: rgb(224,78,85);
+    border-bottom: 4px solid rgb(224,78,85);
+}
+.question-tabs p:hover{
+    color: rgb(224,78,85);
+}
+.questions div{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    border-radius: 10px;
+    border: 0.2px solid rgb(235, 235, 235);
+    cursor: pointer;
+}
+.questions p{
+    font-weight: 700;
+}
+
 
