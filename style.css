@@ -352,3 +352,110 @@
     margin-top:37px;
     font-size: large;
 }
+.rental-cards{
+    margin-top: 35px;
+}
+.rental-cards div{
+    display: flex;
+    gap:24px;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.rental-button{
+    margin-top: 50px;
+    padding:18px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(216,78,85);
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.booking-section{
+    display: flex;
+}
+.booking-img{
+    display: flex;
+    align-items: end;
+    background-image: url("./assets/busbg.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.booking-img img{
+    margin-bottom: 80px;
+}
+.app-section{
+    background-image: url("./assets/appInstallbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.app-section > h3 {
+    font-size: 35px;
+    font-weight: normal;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.app-content{
+    display: flex;
+    gap:50px;
+}
+.app-content > div:nth-child(1){
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding-top:40px;    
+    padding-bottom:40px;
+}
+.app-demo > p:nth-child(-n+2){
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 25px;
+    color: rgb(90, 90, 90);
+}
+.app-ranking{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.app-divider{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 2px solid;
+    border-color: rgb(138, 138, 138);
+}
+.app-ranking div p:nth-child(1){
+    font-weight: 700;
+    font-size: 20px;
+    color:rgb(59, 59, 59);
+    margin-bottom: 10px;
+}
+.app-ranking div p:nth-child(3){
+    font-weight: 600;
+    margin-top: 10px;
+    color:rgb(59, 59, 59);
+}
+.app-content div:nth-child(2), .qr-codes{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.app-content div:nth-child(2) h3, .qr-codes h3{
+    color: white;
+}
