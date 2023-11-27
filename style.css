@@ -459,3 +459,111 @@
 .app-content div:nth-child(2) h3, .qr-codes h3{
     color: white;
 }
+.primo .image{
+    text-align: center;
+}
+.primo-card{
+    display: flex;
+    gap: 45px;
+    margin-top: 60px;
+}
+.primo-card > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    gap: 25px;
+    background: linear-gradient(to right, rgb(38,72,152),rgb(125,70,134));
+    border-radius: 20px;
+    color: white;
+}
+.primo-card h3{
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.primo-card > div p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.partner{
+    margin-top: 150px;
+}
+.partner h2{
+    font-size: 45px;
+    color: rgb(77, 77, 77);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.partner-head{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.partner-head p{
+    font-size: 30px;
+    color: rgb(77, 77, 77);
+}
+.partner-head button{
+    border-radius: 17px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: white;
+    border: 0.7px solid rgb(77, 77, 77);
+    font-size: large;
+    cursor: pointer;
+}
+.partner-head button:hover{
+    box-shadow: 0 2px 12px gray;
+}
+.partner-rtc{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+.partner-rtc > div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.partner-rtc > div > img{
+    width: auto;
+    height: 90px;
+    border-radius: 200px;
+    cursor: pointer;
+}
+.partner-rtc > div > p {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-wrap: nowrap;
+    border-radius: 50px;
+}
+.partner-rtc > div > p:hover {
+    background-color: rgb(231, 228, 228);
+    cursor: pointer;
+}
+.private-operators{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.private-operators p{
+    flex: 0 0 calc(16.666% - 40px);
+    border-radius: 50px;
+    padding: 10px;
+    color:rgb(66, 65, 65);
+}
+.private-operators p:hover{
+    background-color: rgb(231, 228, 228);
+    cursor: pointer;
+}
+
