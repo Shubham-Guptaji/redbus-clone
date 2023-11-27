@@ -17,13 +17,15 @@
     align-items: center;
     justify-content: space-between;
 }
-.redbus-nav{
+
+.redbus-nav {
     position: sticky;
     background-color: white;
     z-index: 55;
     box-shadow: 0 0 8px lightgray;
-    top:0;
+    top: 0;
 }
+
 .nav-left {
     display: inline-flex;
     align-items: center;
@@ -308,208 +310,246 @@
     background: linear-gradient(to right, rgb(35, 137, 162), #5fc6df);
 }
 
-.ref-img{
+.ref-img {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.ref-img img{
-    cursor:pointer;
+
+.ref-img img {
+    cursor: pointer;
 }
-.booking-content{
+
+.booking-content {
     width: 43%;
 }
-.booking-content h3{
+
+.booking-content h3 {
     font-size: 40px;
     font-weight: normal;
     line-height: 60px;
 }
-.booking{
+
+.booking {
     display: flex;
     margin-top: 50px;
-    gap:25px;
+    gap: 25px;
 }
-.booking div{
+
+.booking div {
     display: flex;
-    gap:15px;
+    gap: 15px;
     padding-bottom: 20px;
     align-items: center;
 }
-.booking a{
+
+.booking a {
     text-decoration: none;
-    color:black
+    color: black
 }
-.booking .rental a{
-    color:red;
+
+.booking .rental a {
+    color: red;
     font-weight: 700;
 }
-.booking .rental{
+
+.booking .rental {
     border-bottom: 2px solid rgb(236, 40, 40);
     padding-right: 10px;
     padding-left: 10px;
 }
-.divider{
+
+.divider {
     border-left: 1px solid rgb(202, 202, 202);
     height: 20px;
     margin-left: 15px;
     margin-right: 25px;
 }
-.booking-content > p{
-    margin-top:37px;
+
+.booking-content>p {
+    margin-top: 37px;
     font-size: large;
 }
-.rental-cards{
+
+.rental-cards {
     margin-top: 35px;
 }
-.rental-cards div{
+
+.rental-cards div {
     display: flex;
-    gap:24px;
+    gap: 24px;
     align-items: center;
     margin-top: 20px;
     font-weight: 700;
 }
-.rental-button{
+
+.rental-button {
     margin-top: 50px;
-    padding:18px;
+    padding: 18px;
     border-radius: 15px;
     color: white;
-    background-color: rgb(216,78,85);
+    background-color: rgb(216, 78, 85);
     font-weight: 600;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
-.booking-section{
+
+.booking-section {
     display: flex;
 }
-.booking-img{
+
+.booking-img {
     display: flex;
     align-items: end;
     background-image: url("./assets/busbg.svg");
     background-repeat: no-repeat;
     background-position: right;
 }
-.booking-img img{
+
+.booking-img img {
     margin-bottom: 80px;
 }
-.app-section{
+
+.app-section {
     background-image: url("./assets/appInstallbg.svg");
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    margin-top:100px;
-    margin-bottom:100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding-left: 30px;
     padding-bottom: 30px;
 }
-.app-section > h3 {
+
+.app-section>h3 {
     font-size: 35px;
     font-weight: normal;
-    color:white;
+    color: white;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.app-content{
+
+.app-content {
     display: flex;
-    gap:50px;
+    gap: 50px;
 }
-.app-content > div:nth-child(1){
+
+.app-content>div:nth-child(1) {
     padding-left: 30px;
     padding-right: 30px;
     background-color: white;
     border-radius: 20px;
-    padding-top:40px;    
-    padding-bottom:40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-.app-demo > p:nth-child(-n+2){
+
+.app-demo>p:nth-child(-n+2) {
     display: flex;
     align-items: center;
-    gap:15px;
+    gap: 15px;
     margin-bottom: 25px;
     color: rgb(90, 90, 90);
 }
-.app-ranking{
+
+.app-ranking {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
 }
-.app-divider{
+
+.app-divider {
     height: 70px;
     margin-left: 20px;
     margin-right: 20px;
     border-left: 2px solid;
     border-color: rgb(138, 138, 138);
 }
-.app-ranking div p:nth-child(1){
+
+.app-ranking div p:nth-child(1) {
     font-weight: 700;
     font-size: 20px;
-    color:rgb(59, 59, 59);
+    color: rgb(59, 59, 59);
     margin-bottom: 10px;
 }
-.app-ranking div p:nth-child(3){
+
+.app-ranking div p:nth-child(3) {
     font-weight: 600;
     margin-top: 10px;
-    color:rgb(59, 59, 59);
+    color: rgb(59, 59, 59);
 }
-.app-content div:nth-child(2), .qr-codes{
+
+.app-content div:nth-child(2),
+.qr-codes {
     width: min-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:15px;
+    gap: 15px;
 }
 
-.app-content div:nth-child(2) h3, .qr-codes h3{
+.app-content div:nth-child(2) h3,
+.qr-codes h3 {
     color: white;
 }
-.primo .image{
+
+.primo .image {
     text-align: center;
 }
-.primo-card{
+
+.primo-card {
     display: flex;
     gap: 45px;
     margin-top: 60px;
 }
-.primo-card > div {
+
+.primo-card>div {
     flex: 1;
     display: flex;
     align-items: center;
     padding: 25px;
     gap: 25px;
-    background: linear-gradient(to right, rgb(38,72,152),rgb(125,70,134));
+    background: linear-gradient(to right, rgb(38, 72, 152), rgb(125, 70, 134));
     border-radius: 20px;
     color: white;
 }
-.primo-card h3{
+
+.primo-card h3 {
     font-size: 25px;
     margin-bottom: 13px;
 }
-.primo-card > div p{
+
+.primo-card>div p {
     font-size: 16px;
     line-height: 20px;
 }
-.partner{
+
+.partner {
     margin-top: 150px;
 }
-.partner h2{
+
+.partner h2 {
     font-size: 45px;
     color: rgb(77, 77, 77);
     font-weight: normal;
     text-transform: uppercase;
 }
-.partner-head{
+
+.partner-head {
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
 }
-.partner-head p{
+
+.partner-head p {
     font-size: 30px;
     color: rgb(77, 77, 77);
 }
-.partner-head button{
+
+.partner-head button {
     border-radius: 17px;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -520,29 +560,34 @@
     font-size: large;
     cursor: pointer;
 }
-.partner-head button:hover{
+
+.partner-head button:hover {
     box-shadow: 0 2px 12px gray;
 }
-.partner-rtc{
+
+.partner-rtc {
     display: flex;
     gap: 50px;
     margin-top: 40px;
 }
-.partner-rtc > div{
-    flex:1;
+
+.partner-rtc>div {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
-.partner-rtc > div > img{
+
+.partner-rtc>div>img {
     width: auto;
     height: 90px;
     border-radius: 200px;
     cursor: pointer;
 }
-.partner-rtc > div > p {
+
+.partner-rtc>div>p {
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -551,67 +596,202 @@
     text-wrap: nowrap;
     border-radius: 50px;
 }
-.partner-rtc > div > p:hover {
+
+.partner-rtc>div>p:hover {
     background-color: rgb(231, 228, 228);
     cursor: pointer;
 }
-.private-operators{
+
+.private-operators {
     display: flex;
     justify-content: space-between;
     row-gap: 30px;
     flex-wrap: wrap;
     margin-top: 40px;
 }
-.private-operators p{
+
+.private-operators p {
     flex: 0 0 calc(16.666% - 40px);
     border-radius: 50px;
     padding: 10px;
-    color:rgb(66, 65, 65);
+    color: rgb(66, 65, 65);
 }
-.private-operators p:hover{
+
+.private-operators p:hover {
     background-color: rgb(231, 228, 228);
     cursor: pointer;
 }
-.question-section{
+
+.question-section {
     margin-top: 160px;
 }
-.question-section h2{
+
+.question-section h2 {
     font-size: 45px;
     color: rgb(56, 56, 56);
-    font-weight:normal;
+    font-weight: normal;
     text-transform: uppercase;
 }
-.question-tabs{
+
+.question-tabs {
     margin-top: 50px;
     display: flex;
-    gap:50px;
-    color:rgb(66, 65, 65);
+    gap: 50px;
+    color: rgb(66, 65, 65);
 }
-.question-tabs p{
+
+.question-tabs p {
     padding-bottom: 15px;
     padding-left: 8px;
     padding-right: 15px;
     cursor: pointer;
 }
-.question-tabs p:first-child{
-    color: rgb(224,78,85);
-    border-bottom: 4px solid rgb(224,78,85);
+
+.question-tabs p:first-child {
+    color: rgb(224, 78, 85);
+    border-bottom: 4px solid rgb(224, 78, 85);
 }
-.question-tabs p:hover{
-    color: rgb(224,78,85);
+
+.question-tabs p:hover {
+    color: rgb(224, 78, 85);
 }
-.questions div{
+
+.questions div {
     margin-top: 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:20px;
+    padding: 20px;
     border-radius: 10px;
     border: 0.2px solid rgb(235, 235, 235);
     cursor: pointer;
 }
-.questions p{
+
+.questions p {
     font-weight: 700;
 }
 
+.global {
+    margin-top: 120px;
+}
 
+.global h2 {
+    font-size: 45px;
+    color: rgb(37, 37, 37);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.global-flag {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.global-flag div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    justify-content: center;
+    font-size: large;
+    font-weight: 700;
+}
+
+.slide-up {
+    margin-top: 70px;
+}
+
+.slide-box {
+    margin-left: auto;
+    border-radius: 20px;
+    width: 40px;
+    height: 50px;
+    border: 1px solid gray;
+    position: relative;
+    cursor: pointer;
+}
+
+.slide-thumb {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(37, 37, 37);
+    transform: translate(-50%, -50%);
+    animation: thum;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes thum {
+    from {
+        top: 62%
+    }
+
+    to {
+        top: 41%
+    }
+}
+
+.footer {
+    margin-top: 35px;
+    background-color: rgb(247, 247, 247);
+}
+
+.footer-nav1,
+.footer-nav2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav1 h3,
+.footer-nav2 h3 {
+    font-size: 19px;
+}
+
+.footer-nav1 p,
+.footer-nav2 p {
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(83, 83, 83);
+    font-size: 16px;
+}
+
+.divide-hr {
+    margin-top: 28px;
+    border-top: 1px solid rgb(202, 200, 200);
+}
+
+.footer-nav2 div:first-child {
+    flex-basis: content;
+    max-width: 25%;
+}
+
+.footer-nav2 div:first-child p {
+    line-height: 23px;
+    cursor: context-menu;
+}
+
+.footer-foot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-foot p {
+    color: rgb(83, 83, 83)
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
