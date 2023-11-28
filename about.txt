@@ -1,0 +1,8 @@
+Hi there I made the redbus clone using html and css and hosted in on vercel.
+Vercel link - 
+	
+	https://redbus-clone-three.vercel.app/
+
+and also provided screenshots of whole website on link - 
+
+	https://github.com/Shubham-Guptaji/redbus-clone/tree/master/outputs
